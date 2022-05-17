@@ -13,7 +13,7 @@ for i in levels:
 subjects = data['subject'].unique()
 nums = []
 cols2 = []
-#
+
 for i in subjects:
     subject = data.loc[data['subject'] == i]
     nums.append(len(subject['course_id']))
